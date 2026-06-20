@@ -2,9 +2,10 @@
 layout: post
 title: Uniqueness of sigma-finite measures over a product space
 date: 2026-06-20
-# tags: formatting math
+tags: measure-theory
 # categories: sample-posts
 related_posts: false
+featured: true
 ---
 
 $$
