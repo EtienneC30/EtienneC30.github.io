@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 
-Because $\sum_{n \geqslant 0} |I_n| < \infty$, the Borel-Cantelli lemma implies that for $\mathrm{Leb}$-almost every $x$, the sum defining $A(x)$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $A$ by setting it to $0$ on the zero-measure set where it is infinite.
+Because $\sum_{n \geqslant 0} \|I_n\| < \infty$, the Borel-Cantelli lemma implies that for $\mathrm{Leb}$-almost every $x$, the sum defining $A(x)$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $A$ by setting it to $0$ on the zero-measure set where it is infinite.
 
 We now set $B(x, y) := A(x - y)$. Let $E, F \in \mathcal{L}(\RR)$ with positive measure. Doing the change of variable $u = x-y$ and $v = y$, we have
 $$
@@ -45,30 +45,30 @@ $$
   & = \int_{\RR^2} A(u) \mathbb{I}_{E \times F}(u+v, v) \mathrm du \mathrm dv \\
   & = \int_\RR A(u) \int_\RR \mathbb{I}_{E \times F} (u + v, v) \mathrm dv \mathrm du \\
   & = \int_\RR A(u) \int_\RR \mathbb{I}_{(E - u) \cap F}(v) \mathrm dv \mathrm du \\
-  & = \int_\RR A(u) \|(E - u) \cap F\| \mathrm du.
+  & = \int_\RR A(u) |(E - u) \cap F| \mathrm du.
 \end{align*}  
 $$
 
-We will now prove that, for some constant $c > 0$, there exist arbitrarily large $n$ such that for every $u in I_n, \|(E - u) inter F\| \geqslant c$. This will imply that
+We will now prove that, for some constant $c > 0$, there exist arbitrarily large $n$ such that for every $u \in I_n, \|(E - u) \cap F\| \geqslant c$. This will imply that
 
-$$\int_{E \times F} B(x, y) \mathrm dx \mathrm dy \geqslant c \int_{I_n} A(x) \mathrm dx \geqslant c 4^n \|I_n\| = c 2^n,$$
+$$\int_{E \times F} B(x, y) \mathrm dx \mathrm dy \geqslant c \int_{I_n} A(x) \mathrm dx \geqslant c 4^n |I_n| = c 2^n,$$
 
 which in turn implies that $\int_{E \times F} B(x, y) \mathrm dx \mathrm dy = \infty$. To do that, recall that because $E$ and $F$ both have positive measure, the Lebesgue's density theorem implies that there exist $x \in E$, $y \in F$ and $\epsilon > 0$ such that
-$$\|E \cap [x-\epsilon, x+\epsilon]\| > (4 \epsilon)/3 \quad \text{and} \quad  \|F \cap [y-\epsilon, y+\epsilon]\| > (4 \epsilon)/3.$$
+$$|E \cap [x-\epsilon, x+\epsilon]| > (4 \epsilon)/3 \quad \text{and} \quad  |F \cap [y-\epsilon, y+\epsilon]| > (4 \epsilon)/3.$$
 
 Let $u \in [x - y - \epsilon/7, x - y + \epsilon/7]$. Then
 
-$$\|(E - u) \cap [x - u - \epsilon, x - u + \epsilon]\| = \|E \cap [x - \epsilon, x + \epsilon]\| \geqslant (4 \epsilon)/3.$$
+$$|(E - u) \cap [x - u - \epsilon, x - u + \epsilon]| = |E \cap [x - \epsilon, x + \epsilon]| \geqslant (4 \epsilon)/3.$$
 
 Moreover, $x - u \in [y - \epsilon/7, y + \epsilon/7]$, which means that
 
 $$
 \begin{align*}
-  \|(E - u) \cap [y - \epsilon, y + \epsilon]\| & \geqslant \|(E - u) \cap [x - u - \epsilon, x - u + \epsilon] \cap [y - \epsilon, y + \epsilon]\| \\
-  & = \|((E - u) \cap [x - u - \epsilon, x - u + \epsilon]) \backslash \\
-  & \qquad ([y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon])\| \\
-  & \geqslant \|(E - u) \cap [x - u - \epsilon, x - u + \epsilon]\| - \\
-  & \qquad \|[y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon]\| \\
+  |(E - u) \cap [y - \epsilon, y + \epsilon]| & \geqslant |(E - u) \cap [x - u - \epsilon, x - u + \epsilon] \cap [y - \epsilon, y + \epsilon]| \\
+  & = |((E - u) \cap [x - u - \epsilon, x - u + \epsilon]) \backslash \\
+  & \qquad ([y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon])| \\
+  & \geqslant |(E - u) \cap [x - u - \epsilon, x - u + \epsilon]| - \\
+  & \qquad |[y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon]| \\
   & \geqslant (4\epsilon)/3 - (2 \epsilon)/7 > \epsilon.
 \end{align*}
 $$
@@ -76,7 +76,7 @@ $$
 We also know that $\|F \cap [y - \epsilon, y + \epsilon]\| > (4 \epsilon)/3.$ Because $\|[y - \epsilon, y + \epsilon]\| = 2 \epsilon$, we deduce that
 
 $$
-\|(E - u) \cap F\| \geqslant \|(E - u) \cap F \cap [y - \epsilon, y + \epsilon]\| > (7 \epsilon)/3 - 2\epsilon = \epsilon/3.
+|(E - u) \cap F| \geqslant |(E - u) \cap F \cap [y - \epsilon, y + \epsilon]| > (7 \epsilon)/3 - 2\epsilon = \epsilon/3.
 $$
 
 Take $c := \epsilon/3$. To conclude, we notice that because the sequence $(r_n)_{n \in \NN}$ is dense, the interval $[x - y - \epsilon/8, x - y + \epsilon/8]$ contains infinitely many terms of the sequence, which implies that there exist arbitrarily large $n$ such that $[x - y - \epsilon/7, x - y + \epsilon/7]$ contains $I_n$. $\square$
