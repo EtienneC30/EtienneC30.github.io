@@ -29,7 +29,7 @@ We will build a function $B : \RR^2 \to \RR_+$ such that for any $E, F in \mathc
 
 To construct $B$, consider $(r_n)_{n in \NN}$ a dense sequence in $\RR$, and let $I_n$ be the interval centered at $r_n$ and with length $1/2^n$. We set
 
-\begin{align*}
+<!-- \begin{align*}
   A : \RR & \to \RR \\
   x & mapsto sum_{n \geqslant 0} 4^n bb(1)_(I_n)(x).
 \end{align*}
@@ -60,4 +60,4 @@ $ abs((E - u) inter [y - epsilon, y + epsilon]) &\geqslant abs((E - u) inter [x 
 &\geqslant (4epsilon)/3 - (2 epsilon)/7 > epsilon. $
 We also know that $abs(F inter [y - epsilon, y + epsilon]) > (4 epsilon)/3.$ Because $abs([y - epsilon, y + epsilon]) = 2 epsilon$, we deduce that
 $ abs((E - u) inter F) \geqslant abs((E - u) inter F inter [y - epsilon, y + epsilon]) > (7 epsilon)/3 - 2epsilon = epsilon/3. $
-Take $c := epsilon/3$. To conclude, we notice that because the sequence $(r_n)_(n in \NN)$ is dense, the interval $[x - y - epsilon/8, x - y + epsilon/8]$ contains infinitely many terms of the sequence, which implies that there exist arbitrarily large $n$ such that $[x - y - epsilon/7, x - y + epsilon/7]$ contains $I_n$. #box(width: 1fr)[#align(right)[$qed$]]
+Take $c := epsilon/3$. To conclude, we notice that because the sequence $(r_n)_(n in \NN)$ is dense, the interval $[x - y - epsilon/8, x - y + epsilon/8]$ contains infinitely many terms of the sequence, which implies that there exist arbitrarily large $n$ such that $[x - y - epsilon/7, x - y + epsilon/7]$ contains $I_n$. #box(width: 1fr)[#align(right)[$qed$]] -->
