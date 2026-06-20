@@ -27,37 +27,56 @@ Consider now the more general case of a $\sigma$-finite measure $\mu$ defined ov
 
 We will build a function $B : \RR^2 \to \RR_+$ such that for any $E, F in \mathcal{L}(\RR)$ with positive measure, $B$ has an infinite integral over $E \times F$ against the Lebesgue measure on $\RR^2$. Therefore, using the same trick as before, it will not be possible to distinguish the measure with density $B$ from the same measure to which we add the Lebesgue measure over the diagonal of $\RR^2$ by simply looking at their values over measurable rectangles. On the other hand, because $B$ is finite everywhere, the measure with density $B$ will be $\sigma$-finite (take $X_n := \{x \| B(x) \leqslant n\} \cap [-n, n]^2$ to get a sequence of spanning sets with finite measure). In what follows, if $E \in \mathcal{L}(\RR)$, we will denote by $\|E\|$ the Lebesgue measure of $E$.
 
-To construct $B$, consider $(r_n)_{n in \NN}$ a dense sequence in $\RR$, and let $I_n$ be the interval centered at $r_n$ and with length $1/2^n$. We set
+To construct $B$, consider $(r_n)_{n \in \NN}$ a dense sequence in $\RR$, and let $I_n$ be the interval centered at $r_n$ and with length $1/2^n$. We set
 
-<!-- \begin{align*}
+$$
+\begin{align*}
   A : \RR & \to \RR \\
-  x & mapsto sum_{n \geqslant 0} 4^n bb(1)_(I_n)(x).
+  x  & \mapsto \sum_{n \geqslant 0} 4^n \mathbb{I}_{I_n}(x).
 \end{align*}
+$$
 
-Because $sum_{n \geqslant 0} |I_n| < oo$, the Borel-Cantelli lemma implies that for $\mathrm{Leb}$-almost every $x$, the sum defining $A(x)$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $A$ by setting it to $0$ on the zero-measure set where it is infinite.
+Because $\sum_{n \geqslant 0} |I_n| < \infty$, the Borel-Cantelli lemma implies that for $\mathrm{Leb}$-almost every $x$, the sum defining $A(x)$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $A$ by setting it to $0$ on the zero-measure set where it is infinite.
 
-#pagebreak()
+We now set $B(x, y) := A(x - y)$. Let $E, F \in \mathcal{L}(\RR)$ with positive measure. Doing the change of variable $u = x-y$ and $v = y$, we have
+$$
+\begin{align*}
+  \int_{E \times F} B(x, y) \mathrm dx \mathrm dy & = \int_{\RR^2} A(x-y) \mathbb{I}_{E \times F}(x, y) \mathrm dx \mathrm dy \\
+  & = \int_{\RR^2} A(u) \mathbb{I}_{E \times F}(u+v, v) \mathrm du \mathrm dv \\
+  & = \int_\RR A(u) \int_\RR \mathbb{I}_{E \times F} (u + v, v) \mathrm dv \mathrm du \\
+  & = \int_\RR A(u) \int_\RR \mathbb{I}_{(E - u) \cap F}(v) \mathrm dv \mathrm du \\
+  & = \int_\RR A(u) \|(E - u) \cap F\| \mathrm du.
+\end{align*}  
+$$
 
-We now set $B(x, y) := A(x - y)$. Let $E, F in \mathcal{L}(\RR)$ with positive measure. Doing the change of variable $u = x-y$ and $v = y$, we have
-$ integral_(E \times F) B(x, y) dif x dif y &= integral_(\RR^2) A(x-y) bb(1)_(E \times F)(x, y) dif x dif y \
-&= integral_(\RR^2) A(u) bb(1)_(E \times F)(u+v, v) dif u dif v \
-&= integral_\RR A(u) integral_\RR bb(1)_(E \times F) (u + v, v) dif v dif u \
-&= integral_\RR A(u) integral_\RR bb(1)_((E - u) inter F)(v) dif v dif u \
-&= integral_\RR A(u) abs((E - u) inter F) dif u. $
+We will now prove that, for some constant $c > 0$, there exist arbitrarily large $n$ such that for every $u in I_n, \|(E - u) inter F\| \geqslant c$. This will imply that
 
-We will now prove that, for some constant $c > 0$, there exist arbitrarily large $n$ such that for every $u in I_n, abs((E - u) inter F) \geqslant c$. This will imply that
-$ integral_(E \times F) B(x, y) dif x dif y \geqslant c integral_(I_n) A(x) dif x \geqslant c 4^n abs(I_n) = c 2^n, $
-which in turn implies that $integral_(E \times F) B(x, y) dif x dif y = oo$. To do that, recall that because $E$ and $F$ both have positive measure, the Lebesgue's density theorem implies that there exist $x in E$, $y in F$ and $epsilon > 0$ such that
-$ abs(E inter [x-epsilon, x+epsilon]) > (4 epsilon)/3 "and" abs(F inter [y-epsilon, y+epsilon]) > (4 epsilon)/3. $
-Let $u in [x - y - epsilon/7, x - y + epsilon/7]$. Then
-$ abs((E - u) inter [x - u - epsilon, x - u + epsilon]) = abs(E inter [x - epsilon, x + epsilon]) \geqslant (4 epsilon)/3. $
-Moreover, $x - u in [y - epsilon/7, y + epsilon/7]$, which means that
-$ abs((E - u) inter [y - epsilon, y + epsilon]) &\geqslant abs((E - u) inter [x - u - epsilon, x - u + epsilon] inter [y - epsilon, y + epsilon]) \
-&= abs(((E - u) inter [x - u - epsilon, x - u + epsilon]) backslash \
-& wide ([y - epsilon, y + epsilon]^c inter [x - u - epsilon, x - u + epsilon])) \
-&\geqslant abs((E - u) inter [x - u - epsilon, x - u + epsilon]) - \
-& wide abs([y - epsilon, y + epsilon]^c inter [x - u - epsilon, x - u + epsilon]) \
-&\geqslant (4epsilon)/3 - (2 epsilon)/7 > epsilon. $
-We also know that $abs(F inter [y - epsilon, y + epsilon]) > (4 epsilon)/3.$ Because $abs([y - epsilon, y + epsilon]) = 2 epsilon$, we deduce that
-$ abs((E - u) inter F) \geqslant abs((E - u) inter F inter [y - epsilon, y + epsilon]) > (7 epsilon)/3 - 2epsilon = epsilon/3. $
-Take $c := epsilon/3$. To conclude, we notice that because the sequence $(r_n)_(n in \NN)$ is dense, the interval $[x - y - epsilon/8, x - y + epsilon/8]$ contains infinitely many terms of the sequence, which implies that there exist arbitrarily large $n$ such that $[x - y - epsilon/7, x - y + epsilon/7]$ contains $I_n$. #box(width: 1fr)[#align(right)[$qed$]] -->
+$$\int_{E \times F} B(x, y) \mathrm dx \mathrm dy \geqslant c \int_{I_n} A(x) \mathrm dx \geqslant c 4^n \|I_n\| = c 2^n,$$
+
+which in turn implies that $\int_{E \times F} B(x, y) \mathrm dx \mathrm dy = \infty$. To do that, recall that because $E$ and $F$ both have positive measure, the Lebesgue's density theorem implies that there exist $x \in E$, $y \in F$ and $\epsilon > 0$ such that
+$$\|E \cap [x-\epsilon, x+\epsilon]\| > (4 \epsilon)/3 \quad \text{and} \quad  \|F \cap [y-\epsilon, y+\epsilon]\| > (4 \epsilon)/3.$$
+
+Let $u \in [x - y - \epsilon/7, x - y + \epsilon/7]$. Then
+
+$$\|(E - u) \cap [x - u - \epsilon, x - u + \epsilon]\| = \|E \cap [x - \epsilon, x + \epsilon]\| \geqslant (4 \epsilon)/3.$$
+
+Moreover, $x - u \in [y - \epsilon/7, y + \epsilon/7]$, which means that
+
+$$
+\begin{align*}
+  \|(E - u) \cap [y - \epsilon, y + \epsilon]\| & \geqslant \|(E - u) \cap [x - u - \epsilon, x - u + \epsilon] \cap [y - \epsilon, y + \epsilon]\| \\
+  & = \|((E - u) \cap [x - u - \epsilon, x - u + \epsilon]) \backslash \\
+  & \qquad ([y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon])\| \\
+  & \geqslant \|(E - u) \cap [x - u - \epsilon, x - u + \epsilon]\| - \\
+  & \qquad \|[y - \epsilon, y + \epsilon]^c \cap [x - u - \epsilon, x - u + \epsilon]\| \\
+  & \geqslant (4\epsilon)/3 - (2 \epsilon)/7 > \epsilon.
+\end{align*}
+$$
+
+We also know that $\|F \cap [y - \epsilon, y + \epsilon]\| > (4 \epsilon)/3.$ Because $\|[y - \epsilon, y + \epsilon]\| = 2 \epsilon$, we deduce that
+
+$$
+\|(E - u) \cap F\| \geqslant \|(E - u) \cap F \cap [y - \epsilon, y + \epsilon]\| > (7 \epsilon)/3 - 2\epsilon = \epsilon/3.
+$$
+
+Take $c := \epsilon/3$. To conclude, we notice that because the sequence $(r_n)_{n \in \NN}$ is dense, the interval $[x - y - \epsilon/8, x - y + \epsilon/8]$ contains infinitely many terms of the sequence, which implies that there exist arbitrarily large $n$ such that $[x - y - \epsilon/7, x - y + \epsilon/7]$ contains $I_n$. $\square$
