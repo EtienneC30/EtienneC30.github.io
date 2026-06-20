@@ -14,7 +14,7 @@ zulip: # can be any name here other than the ones already defined in the jekyll-
   logo: fa-brands fa-zulip # can be png, svg, jpg
   title: Zulip
   url: https://leanprover.zulipchat.com/
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/
