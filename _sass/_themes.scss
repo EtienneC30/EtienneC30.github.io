@@ -6,7 +6,7 @@
 
 :root {
   color-scheme: light;
-  --global-nav-color: #{v.blue-color};
+  --global-nav-color: #{v.$blue-color};
   --global-bg-color: #{v.$blue-color-dark};
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
