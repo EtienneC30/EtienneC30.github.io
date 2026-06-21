@@ -117,7 +117,7 @@
 {% if site.back_to_top %}
   <!-- Back to Top -->
   {% assign back_to_top_js = site.third_party_libraries['vanilla-back-to-top'].url.js
-    | default: 'https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js'
+    | default: '../vanilla-back-to-top.min.js'
   %}
   {% assign back_to_top_integrity = site.third_party_libraries['vanilla-back-to-top'].integrity.js %}
   {% if back_to_top_integrity %}
@@ -128,7 +128,6 @@
   <script>
     addBackToTop({
       backgroundColor: '#0076df',
-      cornerOffset: 50,
     });
   </script>
 {% endif %}
