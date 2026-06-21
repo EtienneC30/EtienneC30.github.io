@@ -27,7 +27,7 @@ Otherwise, both measures give infinite measure to $$E \times F$$, therefore the 
 
 Consider now the more general case of a $$\sigma$$-finite measure $$\mu$$ defined over the product space $$(X \times Y, \mathcal{A} \ox \mathcal{B})$$. Is it characterized by its value on measurable rectangles? This is true if $$\mu$$ is assumed to be finite, as can be shown via the $$\pi$$-$$\lambda$$ theorem. It is also true if $$\mu$$ is the product of two $$\sigma$$-finite measures, as discussed above. However, it turns out that it is not true in general. The goal of this note is to provide a counter example. This counter example was presented to me by Sébastien Gouëzel, and is based on problem 14E in _Problems for Mathematicians, Young and Old_ by Paul R. Halmos.
 
-We will build a function $$B : \RR^2 \to \RR_+$$ such that for any $$E, F \in \mathcal{L}(\RR)$$ with positive measure, $B$ has an infinite integral over $$E \times F$$ against the Lebesgue measure on $$\RR^2$$. Therefore, using the same trick as before, it will not be possible to distinguish the measure with density $$B$$ from the same measure to which we add the Lebesgue measure over the diagonal of $$\RR^2$$ by simply looking at their values over measurable rectangles. On the other hand, because $$B$$ is finite everywhere, the measure with density $$B$$ will be $$\sigma$$-finite (take $$X_n := \{x \| B(x) \leqslant n\} \cap [-n, n]^2$$ to get a sequence of spanning sets with finite measure). In what follows, if $$E \in \mathcal{L}(\RR)$$, we will denote by $$\abs{E}$$ the Lebesgue measure of $E$.
+We will build a function $$B : \RR^2 \to \RR_+$$ such that for any $$E, F \in \mathcal{L}(\RR)$$ with positive measure, $B$ has an infinite integral over $$E \times F$$ against the Lebesgue measure on $$\RR^2$$. Therefore, using the same trick as before, it will not be possible to distinguish the measure with density $$B$$ from the same measure to which we add the Lebesgue measure over the diagonal of $$\RR^2$$ by simply looking at their values over measurable rectangles. On the other hand, because $$B$$ is finite everywhere, the measure with density $$B$$ will be $$\sigma$$-finite (take $$X_n := \{x \mid B(x) \leqslant n\} \cap [-n, n]^2$$ to get a sequence of spanning sets with finite measure). In what follows, if $$E \in \mathcal{L}(\RR)$$, we will denote by $$\abs{E}$$ the Lebesgue measure of $E$.
 
 To construct $$B$$, consider $$(r_n)_{n \in \NN}$$ a dense sequence in $$\RR$$, and let $$I_n$$ be the interval centered at $r_n$ and with length $$1/2^n$$. We set
 
@@ -38,7 +38,7 @@ $$
 \end{align*}
 $$
 
-Because $$\sum_{n \geqslant 0} \|I_n\| < \infty$$, the Borel-Cantelli lemma implies that for $$\mathrm{Leb}$$-almost every $$x$$, the sum defining $$A(x)$$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $$A$$ by setting it to $$0$$ on the zero-measure set where it is infinite.
+Because $$\sum_{n \geqslant 0} \abs{I_n} < \infty$$, the Borel-Cantelli lemma implies that for $$\mathrm{Leb}$$-almost every $$x$$, the sum defining $$A(x)$$ contains only a finite number of non-zero terms, and is therefore finite. We redefine $$A$$ by setting it to $$0$$ on the zero-measure set where it is infinite.
 
 We now set $$B(x, y) := A(x - y)$$. Let $$E, F \in \mathcal{L}(\RR)$$ with positive measure. Doing the change of variable $$u = x-y$$ and $$v = y$$, we have
 
@@ -52,7 +52,7 @@ $$
 \end{align*}
 $$
 
-We will now prove that, for some constant $$c > 0$$, there exist arbitrarily large $n$ such that for every $$u \in I_n, \|(E - u) \cap F\| \geqslant c$$. This will imply that
+We will now prove that, for some constant $$c > 0$$, there exist arbitrarily large $n$ such that for every $$u \in I_n, \abs{(E - u) \cap F} \geqslant c$$. This will imply that
 
 $$\int_{E \times F} B(x, y) \mathrm dx \mathrm dy \geqslant c \int_{I_n} A(x) \mathrm dx \geqslant c 4^n |I_n| = c 2^n,$$
 
@@ -77,7 +77,7 @@ $$
 \end{align*}
 $$
 
-We also know that $$\|F \cap [y - \epsilon, y + \epsilon]\| > (4 \epsilon)/3$$. Because $$\|[y - \epsilon, y + \epsilon]\| = 2 \epsilon$$, we deduce that
+We also know that $$\abs{F \cap [y - \epsilon, y + \epsilon]} > (4 \epsilon)/3$$. Because $$\abs{[y - \epsilon, y + \epsilon]} = 2 \epsilon$$, we deduce that
 
 $$
 |(E - u) \cap F| \geqslant |(E - u) \cap F \cap [y - \epsilon, y + \epsilon]| > (7 \epsilon)/3 - 2\epsilon = \epsilon/3.
