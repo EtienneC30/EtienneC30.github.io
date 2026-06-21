@@ -445,6 +445,10 @@ table[data-toggle="table"].af-table-enhanced tbody tr.af-row-selected {
   padding: 8px 12px;
 }
 
+.bibsearch-form-input::placeholder {
+    color: var(--global-text-color-light)
+}
+
 .newsletter-form-input:focus {
   border-color: var(--global-theme-color) !important;
 }
