@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at MAP5 in Université Paris-Cité under the supervision of Félix Foutel-Rodier. I am primarily interested in probability theory applied to biology and formalization of probability theory using the proof assistant Lean.
+My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at MAP5 in Université Paris-Cité under the supervision of Félix Foutel-Rodier. I am primarily interested in probability theory applied to biology and formalization of probability theory using the proof assistant Lean. test
 
 <!-- Coucou, je m'appelle Etienne. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
