@@ -48,7 +48,7 @@ $$
   & = \int_\RR A(u) \int_\RR \mathbb{I}_{E \times F} (u + v, v) \mathrm dv \mathrm du \\
   & = \int_\RR A(u) \int_\RR \mathbb{I}_{(E - u) \cap F}(v) \mathrm dv \mathrm du \\
   & = \int_\RR A(u) |(E - u) \cap F| \mathrm du.
-\end{align*}  
+\end{align*}
 $$
 
 We will now prove that, for some constant $$c > 0$$, there exist arbitrarily large $n$ such that for every $$u \in I_n, |(E - u) \cap F| \geqslant c$$. This will imply that
