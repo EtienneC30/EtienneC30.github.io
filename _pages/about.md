@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -27,7 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at MAP5 in Université Paris-Cité under the supervision of Félix Foutel-Rodier. I am primarily interested in probability theory applied to biology and formalization of probability theory using the proof assistant Lean.
+My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at MAP5 in Université Paris-Cité under the supervision of Félix Foutel-Rodier. I will start my PhD in September under his supervision as well.
+
+I am interested in probability theory applied to biology. More precisely, I am studying questions related to population genetics, including Wright-Fisher-like models, coalescent processes, neutral fractions etc.
+
+I am also interested in formalization of probability theory using the proof assistant [Lean](https://lean-lang.org). I am part of the [reviewer team](https://leanprover-community.github.io/teams/reviewers.html) of the [Mathlib](https://github.com/leanprover-community/mathlib4) library.
 
 <!-- Coucou, je m'appelle Etienne. Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

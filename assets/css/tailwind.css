@@ -869,7 +869,7 @@
     box-sizing: border-box;
   }
   body {
-    text-align: left;
+    text-align: center;
     background-color: var(--global-bg-color);
     color: var(--global-text-color);
     margin: 0;
