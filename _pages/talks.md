@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-description: List of my preprints
+permalink: /talks/
+title: talks
+description: List of my talks
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/talks.md -->
 
 <!-- Bibsearch Feature -->
 
