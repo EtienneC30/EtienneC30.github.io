@@ -118,7 +118,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Etienne's blog # blog_name will be displayed in your blog page
-blog_description: Posts about maths I encouter - please signal any error!
+blog_description: Posts about maths I encouter
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
