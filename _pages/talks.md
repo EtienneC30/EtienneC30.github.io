@@ -11,7 +11,7 @@ nav_order: 3
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<div class="search">{% include bib_search.liquid %}</div>
 
 <div class="publications">
 
