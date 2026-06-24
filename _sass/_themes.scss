@@ -13,7 +13,7 @@
   --global-code-bg-color: #{v.$code-bg-color-light};
   --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$blue-color-dark};
+  --global-theme-color: #{v.$blue-color};
   --global-hover-color: #{v.$purple-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: var(--first-color);
@@ -26,7 +26,7 @@
   --global-back-to-top-bg-color: var(--first-color);
   --global-back-to-top-text-color: #{v.$black-color};
   --global-newsletter-bg-color: var(--first-color);
-  --global-newsletter-text-color: var(--second-color);
+  --global-newsletter-text-color: var(--global-text-color);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
