@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blog/
-title: Blog
+title: Etienne's Blog
 description: Posts about maths I encouter - please signal any mistake you spot!
 nav: true
 nav_order: 1
