@@ -5,7 +5,7 @@ date: 2026-06-20
 tags: measure-theory
 # categories: sample-posts
 related_posts: false
-featured: true
+featured: false
 ---
 
 $$

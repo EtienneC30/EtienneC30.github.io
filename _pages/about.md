@@ -27,9 +27,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at MAP5 in Université Paris-Cité under the supervision of Félix Foutel-Rodier. I will start my PhD in September under his supervision as well.
+My name is Etienne Marion. I am a graduate maths students from ENS de Lyon, currently doing an internship at [MAP5](https://map5.mi.parisdescartes.fr/) in [Université Paris-Cité](https://u-paris.fr/) under the supervision of [Félix Foutel-Rodier](https://www.normalesup.org/~foutelrodier/). I will start my PhD in September under his supervision as well.
 
-I am interested in probability theory applied to biology. More precisely, I am studying questions related to population genetics, including Wright-Fisher-like models, coalescent processes, neutral fractions etc.
+I am interested in probability theory applied to biology. More precisely, I am studying questions related to population genetics, including Wright-Fisher-like models, coalescent processes, and neutral fractions.
 
 I am also interested in formalization of probability theory using the proof assistant [Lean](https://lean-lang.org). I am part of the [reviewer team](https://leanprover-community.github.io/teams/reviewers.html) of the [Mathlib](https://github.com/leanprover-community/mathlib4) library.
 

@@ -6,20 +6,22 @@
 
 :root {
   color-scheme: light;
-  --global-nav-color: #{v.$blue-color};
-  --global-bg-color: #{v.$blue-color-dark};
+  --first-color: #ffa400;
+  --second-color: #ffe0003d;
+  --global-nav-color: var(--first-color);
+  --global-bg-color: var(--second-color);
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$white-color};
+  --global-text-color: #{v.$black-color};
   --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$orange-color};
+  --global-theme-color: #{v.$blue-color-dark};
   --global-hover-color: #{v.$purple-color};
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$blue-color};
-  --global-footer-text-color: #{v.$grey-color-light};
+  --global-footer-bg-color: var(--second-color);
+  --global-footer-text-color: #{v.$black-color};
   --global-footer-link-color: #{v.$white-color};
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$blue-color};
+  --global-card-bg-color: var(--first-color);
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: #{v.$blue-color};
   --global-back-to-top-text-color: #{v.$white-color};
