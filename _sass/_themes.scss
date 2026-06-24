@@ -25,8 +25,8 @@
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: var(--first-color);
   --global-back-to-top-text-color: #{v.$black-color};
-  --global-newsletter-bg-color: #{v.$blue-color};
-  --global-newsletter-text-color: #{v.$white-color};
+  --global-newsletter-bg-color: var(--first-color);
+  --global-newsletter-text-color: var(--second-color);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
