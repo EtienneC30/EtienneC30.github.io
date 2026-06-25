@@ -50,22 +50,15 @@ cv:
         location: Reims, France
         studyType: Classe préparatoire
         start_date: 2020
-        end_date: 2021
-      - institution: Lycée Franklin Roosevelt
-        location: Reims, France
-        studyType: Baccalauréat Scientifique
-        start_date: 2020
+        end_date: 2022
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Inria centre at the University of Lille
+        location: Lille, France
+        url: https://www.inria.fr/en/inria-centre-university-lille
+        start_date: 2026-07-15
+        end_date: 2026-07-31
+        summary: I was invited by Rémy Degenne to work on the formalization of stochastic integrals in Lean.
 
       - company: California Institute of Technology
         position: Visiting Professor
