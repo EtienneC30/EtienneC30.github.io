@@ -29,8 +29,8 @@ cv:
         location: Princeton, NJ
         summary:
         highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-          - 'Advisor: Prof. Sanjeev Arora'
+          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+          - "Advisor: Prof. Sanjeev Arora"
           - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
       - institution: Boğaziçi University
         area: Computer Engineering
@@ -41,7 +41,7 @@ cv:
         location: Istanbul, Türkiye
         summary:
         highlights:
-          - 'GPA: 3.97/4.00, Valedictorian'
+          - "GPA: 3.97/4.00, Valedictorian"
           - Fulbright Scholarship recipient for Graduate Studies
     experience:
       - company: Nexus AI
@@ -100,7 +100,7 @@ cv:
           - Implemented novel self-supervised learning framework for low-resource language modeling
           - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
     projects:
-      - name: '[FlashInfer](https://github.com/)'
+      - name: "[FlashInfer](https://github.com/)"
         date:
         start_date: 2023-01
         end_date: present
@@ -109,8 +109,8 @@ cv:
         highlights:
           - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
           - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: '[NeuralPrune](https://github.com/)'
-        date: '2021'
+      - name: "[NeuralPrune](https://github.com/)"
+        date: "2021"
         start_date:
         end_date:
         location:
@@ -119,9 +119,9 @@ cv:
           - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
           - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
     publications:
-      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+      - title: "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models"
         authors:
-          - '*John Doe*'
+          - "*John Doe*"
           - Sarah Williams
           - David Park
         summary:
@@ -132,7 +132,7 @@ cv:
       - title: Neural Architecture Search via Differentiable Pruning
         authors:
           - James Liu
-          - '*John Doe*'
+          - "*John Doe*"
         summary:
         doi: 10.1234/neurips.2022.5678
         url:
@@ -141,7 +141,7 @@ cv:
       - title: Multi-Agent Reinforcement Learning with Emergent Communication
         authors:
           - Maria Garcia
-          - '*John Doe*'
+          - "*John Doe*"
           - Tom Anderson
         summary:
         doi: 10.1234/icml.2022.9012
@@ -150,7 +150,7 @@ cv:
         date: 2022-07
       - title: On-Device Model Compression via Learned Quantization
         authors:
-          - '*John Doe*'
+          - "*John Doe*"
           - Kevin Wu
         summary:
         doi: 10.1234/iclr.2021.3456
@@ -179,7 +179,7 @@ cv:
     invited_talks:
       - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
       - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
+      - reversed_number: "From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)"
       - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
 design:
   theme: classic
