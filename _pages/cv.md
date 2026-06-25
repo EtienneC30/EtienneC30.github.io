@@ -14,7 +14,7 @@ nav_order: 4
 # Etienne Marion's CV
 
 - Email: [john.doe@email.com](mailto:john.doe@email.com)
-- Location: San Francisco, CA
+- Location: San Francisco, C
 - Website: [rendercv.com](https://rendercv.com/)
 - LinkedIn: [rendercv](https://linkedin.com/in/rendercv)
 - GitHub: [rendercv](https://github.com/rendercv)
