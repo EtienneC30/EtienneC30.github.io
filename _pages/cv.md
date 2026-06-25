@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: assets/pdf/Etienne-MARION_CV-fr.pdf
 title: CV
 # nav: true
 nav_order: 5

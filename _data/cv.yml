@@ -54,7 +54,7 @@ cv:
       - institution: Lycée Franklin Roosevelt
         location: Reims, France
         studyType: Baccalauréat Scientifique
-        date: "2020"
+        start_date: 2020
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
