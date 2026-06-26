@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /_data/rendercv_output/Etienne_Marion_CV.pdf # path to your CV PDF file
+cv_pdf: /assets/Etienne_Marion_CV.pdf # path to your CV PDF file
 email: etienne.marion@ens-lyon.fr # your email address
 github_username: EtienneC30
 hal_id: etienne-marion
