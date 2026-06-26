@@ -11,8 +11,6 @@ nav_order: 4
 #   sidebar: left
 ---
 
-<!doctype html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -68,7 +66,6 @@ nav_order: 4
 
   <body>
     <article class="markdown-body">
-      <h1>Etienne Marion's CV</h1>
       <ul>
         <li>Email: <a href="mailto:etienne.marion@ens-lyon.fr">etienne.marion@ens-lyon.fr</a></li>
         <li>Location: Office 725 C1, 45 rue des Saints-Pères, 75006 Paris</li>
@@ -81,42 +78,42 @@ nav_order: 4
         Mathematics using the proof assistant Lean.
       </p>
       <h1>Education</h1>
-      <h2><strong>École Normale Supérieure de Lyon</strong>, MS in probability and statistics -- Lyon, France</h2>
+      <h2 class="cv-h2"><strong>École Normale Supérieure de Lyon</strong>, MS in probability and statistics -- Lyon, France</h2>
       <p>2023 – 2025</p>
-      <h2><strong>École Normale Supérieure de Lyon</strong>, BS in mathematics -- Lyon, France</h2>
+      <h2 class="cv-h2"><strong>École Normale Supérieure de Lyon</strong>, BS in mathematics -- Lyon, France</h2>
       <p>2022 – 2023</p>
-      <h2><strong>Lycée Georges Clemenceau</strong>, Classe préparatoire in mathematics and physics -- Reims, France</h2>
+      <h2 class="cv-h2"><strong>Lycée Georges Clemenceau</strong>, Classe préparatoire in mathematics and physics -- Reims, France</h2>
       <p>2020 – 2022</p>
       <h1>Research experience</h1>
-      <h2><strong>Research intern</strong>, MAP5, Université Paris-Cité -- Paris, France</h2>
+      <h2 class="cv-h2"><strong>Research intern</strong>, MAP5, Université Paris-Cité -- Paris, France</h2>
       <p>Feb 2026 – July 2026</p>
       <p>Supervised by Félix Foutel-Rodier: <em>Impact of demographic fluctuations on structured populations genealogies.</em></p>
-      <h2><strong>Research intern</strong>, University of Vienna -- Vienna, Austria</h2>
+      <h2 class="cv-h2"><strong>Research intern</strong>, University of Vienna -- Vienna, Austria</h2>
       <p>Sept 2025 – Jan 2026</p>
       <p>Supervised by Emmanuel Schertzer: <em>Diffusive neutral fractions inside a genetic population.</em></p>
-      <h2><strong>Research intern</strong>, École Normale Supérieure de Lyon -- Lyon, France</h2>
+      <h2 class="cv-h2"><strong>Research intern</strong>, École Normale Supérieure de Lyon -- Lyon, France</h2>
       <p>Mar 2025 – July 2025</p>
       <p>Supervised by Jean-Christophe Mourrat: <em>Study of functions learnable by neural networks using mean-fields approximation.</em></p>
-      <h2><strong>Research intern</strong>, Institut de recherche mathématique de Rennes -- Rennes, France</h2>
+      <h2 class="cv-h2"><strong>Research intern</strong>, Institut de recherche mathématique de Rennes -- Rennes, France</h2>
       <p>May 2024 – July 2024</p>
       <p>
         Supervised by Sébastien Gouëzel:
         <em>Formalization of the Ionescu-Tulca theorem and construction of infinite products of porobability measures with Lean.</em>
       </p>
-      <h2><strong>Research intern</strong>, Laboratoire Jean Kuntzmann -- Grenoble, France</h2>
+      <h2 class="cv-h2"><strong>Research intern</strong>, Laboratoire Jean Kuntzmann -- Grenoble, France</h2>
       <p>May 2023 – June 2023</p>
       <p>Supervised by Sana Louhichi: <em>Tight sequences of random variables: definition, examples and application.</em></p>
       <h1>Preprints</h1>
-      <h2><strong>Formalization of Brownian motion in Lean</strong></h2>
+      <h2 class="cv-h2"><strong>Formalization of Brownian motion in Lean</strong></h2>
       <p>2025+</p>
       <p>Rémy Degenne, David Ledvinka, Etienne Marion, Peter Pfaffelhuber</p>
       <p><a href="https://arxiv.org/abs/2511.20118">arxiv.org/abs/2511.20118</a></p>
-      <h2><strong>A Formalization of the Ionescu-Tulcea Theorem in Mathlib</strong></h2>
+      <h2 class="cv-h2"><strong>A Formalization of the Ionescu-Tulcea Theorem in Mathlib</strong></h2>
       <p>2025+</p>
       <p>Etienne Marion</p>
       <p><a href="https://arxiv.org/abs/2506.18616">arxiv.org/abs/2506.18616</a></p>
       <h1>Talk</h1>
-      <h2><strong>A Formalization of the Ionescu-Tulcea Theorem in Mathlib</strong></h2>
+      <h2 class="cv-h2"><strong>A Formalization of the Ionescu-Tulcea Theorem in Mathlib</strong></h2>
       <p>Jan 2026</p>
       <p><a href="https://leanprover-community.github.io/lt2026/">Lean Together 2026</a></p>
       <p><a href="https://www.youtube.com/watch?v=_TrTKnWU-to">www.youtube.com/watch?v=_TrTKnWU-to</a></p>
