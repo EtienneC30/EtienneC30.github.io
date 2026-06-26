@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /cv/
+permalink: /assets/pdf/Etienne_Marion_CV.pdf
 title: CV
 nav: true
 nav_order: 4
@@ -33,7 +33,7 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
 
 2020 – 2022
 
-## Experience
+## Research experience
 
 ### **Research intern**, MAP5, Université Paris-Cité -- Paris, France
 

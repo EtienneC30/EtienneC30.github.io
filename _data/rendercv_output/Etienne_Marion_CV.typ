@@ -140,7 +140,7 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
   ],
 )
 
-== Experience
+== Research experience
 
 #regular-entry(
   [
