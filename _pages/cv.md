@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/Etienne_Marion_CV.pdf
+permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
@@ -15,9 +15,15 @@ nav_order: 4
 - Location: Office 725 C1, 45 rue des Saints-Pères, 75006 Paris
 - Website: [etiennec30.github.io](https://etiennec30.github.io/)
 
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
+
 ## Summary
 
 I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean.
+
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
 
 ## Education
 
@@ -32,6 +38,10 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
 ### **Lycée Georges Clemenceau**, Classe préparatoire in mathematics and physics -- Reims, France
 
 2020 – 2022
+
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
 
 ## Research experience
 
@@ -65,6 +75,10 @@ May 2023 – June 2023
 
 Supervised by Sana Louhichi: _Tight sequences of random variables: definition, examples and application._
 
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
+
 ## Preprints
 
 ### **Formalization of Brownian motion in Lean**
@@ -83,6 +97,10 @@ Etienne Marion
 
 [arxiv.org/abs/2506.18616](https://arxiv.org/abs/2506.18616)
 
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
+
 ## Talk
 
 ### **A Formalization of the Ionescu-Tulcea Theorem in Mathlib**
@@ -92,6 +110,10 @@ Jan 2026
 [Lean Together 2026](https://leanprover-community.github.io/lt2026/)
 
 [www.youtube.com/watch?v=\_TrTKnWU-to](https://www.youtube.com/watch?v=_TrTKnWU-to)
+
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
 
 ## Participation to conferences
 
@@ -103,8 +125,14 @@ Jan 2026
 
 **Mar 2024:** I was present at the conference [Lean for the curious mathematician](https://conferences.cirm-math.fr/2970.html) at CIRM.
 
+</div>
+
+<div style="border: 1px solid #ccc; border-radius: 5px; padding: 10px; margin-bottom: 10px;" markdown=1>
+
 ## Other activities
 
 I am part of the Mathlib [reviewer team](https://leanprover-community.github.io/teams/reviewers.html). I am assessing the mathematical relevance and the quality of the code that contributors wish to add to the library, especially in the probability section.
 
 **Sept - Dec 2023:** With three fellow students we gave an introductory course to category theory, shaped as a weekly seminar.
+
+</div>
