@@ -80,7 +80,7 @@ html[data-theme="dark"] {
   --global-bg-color: var(--second-color);
   --global-code-bg-color: #{v.$code-bg-color-dark};
   --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
+  --global-text-color-light: #a1a1a1;
   --global-theme-color: #{v.$orange-color};
   --global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};
