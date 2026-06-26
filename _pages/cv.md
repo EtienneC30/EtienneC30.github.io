@@ -11,216 +11,100 @@ nav_order: 4
 #   sidebar: left
 ---
 
-# Etienne Marion's CV
+- Email: [etienne.marion@ens-lyon.fr](mailto:etienne.marion@ens-lyon.fr)
+- Location: Office 725 C1, 45 rue des Saints-Pères, 75006 Paris
+- Website: [etiennec30.github.io](https://etiennec30.github.io/)
 
-- Email: [john.doe@email.com](mailto:john.doe@email.com)
-- Location: San Francisco, C
-- Website: [rendercv.com](https://rendercv.com/)
-- LinkedIn: [rendercv](https://linkedin.com/in/rendercv)
-- GitHub: [rendercv](https://github.com/rendercv)
+# Summary
 
-# Welcome to RenderCV
-
-RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-
-Each section title is arbitrary.
-
-You can choose any of the 9 entry types for each section.
-
-Markdown syntax is supported everywhere. This is **bold**, _italic_, and [link](https://example.com).
+I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean.
 
 # Education
 
-## **Princeton University**, Computer Science
+## **École Normale Supérieure de Lyon**, MS in probability and statistics -- Lyon, France
 
-**PhD**
+2023 – 2025
 
-Princeton, NJ
+## **École Normale Supérieure de Lyon**, BS in mathematics -- Lyon, France
 
-Sept 2018 – May 2023
+2022 – 2023
 
-- Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment
+## **Lycée Georges Clemenceau**, Classe préparatoire in mathematics and physics -- Reims, France
 
-- Advisor: Prof. Sanjeev Arora
-
-- NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-
-## **Boğaziçi University**, Computer Engineering
-
-**BS**
-
-Istanbul, Türkiye
-
-Sept 2014 – June 2018
-
-- GPA: 3.97/4.00, Valedictorian
-
-- Fulbright Scholarship recipient for Graduate Studies
+2020 – 2022
 
 # Experience
 
-## **Nexus AI**, Co-Founder & CTO
+## **Research intern**, MAP5, Université Paris-Cité -- Paris, France
 
-San Francisco, CA
+Feb 2026 – July 2026
 
-June 2023 – present
+Supervised by Félix Foutel-Rodier: _Impact of demographic fluctuations on structured populations genealogies._
 
-3 years 1 month
+## **Research intern**, University of Vienna -- Vienna, Austria
 
-- Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
+Sept 2025 – Jan 2026
 
-- Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
+Supervised by Emmanuel Schertzer: _Diffusive neutral fractions inside a genetic population._
 
-- Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
+## **Research intern**, École Normale Supérieure de Lyon -- Lyon, France
 
-- Developed proprietary inference optimization reducing latency by 73% compared to baseline
+Mar 2025 – July 2025
 
-## **NVIDIA Research**, Research Intern
+Supervised by Jean-Christophe Mourrat: _Study of functions learnable by neural networks using mean-fields approximation._
 
-Santa Clara, CA
+## **Research intern**, Institut de recherche mathématique de Rennes -- Rennes, France
 
-May 2022 – Aug 2022
+May 2024 – July 2024
 
-4 months
+Supervised by Sébastien Gouëzel: _Formalization of the Ionescu-Tulca theorem and construction of infinite products of porobability measures with Lean._
 
-- Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
+## **Research intern**, Laboratoire Jean Kuntzmann -- Grenoble, France
 
-- Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
+May 2023 – June 2023
 
-## **Google DeepMind**, Research Intern
+Supervised by Sana Louhichi: _Tight sequences of random variables: definition, examples and application._
 
-London, UK
+# Preprints
 
-May 2021 – Aug 2021
+## **Formalization of Brownian motion in Lean**
 
-4 months
+2025+
 
-- Developed reinforcement learning algorithms for multi-agent coordination
+Rémy Degenne, David Ledvinka, Etienne Marion, Peter Pfaffelhuber
 
-- Published research at top-tier venues with significant academic impact
+[arxiv.org/abs/2511.20118](https://arxiv.org/abs/2511.20118)
 
-  - ICML 2022 main conference paper, cited 340+ times within two years
+## **A Formalization of the Ionescu-Tulcea Theorem in Mathlib**
 
-  - NeurIPS 2022 workshop paper on emergent communication protocols
+2025+
 
-  - Invited journal extension in JMLR (2023)
+Etienne Marion
 
-## **Apple ML Research**, Research Intern
+[arxiv.org/abs/2506.18616](https://arxiv.org/abs/2506.18616)
 
-Cupertino, CA
+# Talk
 
-May 2020 – Aug 2020
+## **A Formalization of the Ionescu-Tulcea Theorem in Mathlib**
 
-4 months
+Jan 2026
 
-- Created on-device neural network compression pipeline deployed across 50M+ devices
+[Lean Together 2026](https://leanprover-community.github.io/lt2026/)
 
-- Filed 2 patents on efficient model quantization techniques for edge inference
+[www.youtube.com/watch?v=\_TrTKnWU-to](https://www.youtube.com/watch?v=_TrTKnWU-to)
 
-## **Microsoft Research**, Research Intern
+# Participation to conferences
 
-Redmond, WA
+**Apr 2026:** I was present at the [3rd annual meeting of the GdR Branchement](https://arbre3.sciencesconf.org/?lang=en) in Avignon.
 
-May 2019 – Aug 2019
+**Sept 2025:** I was present at the workshop [Ancestral lines in population models with interaction](https://boku.ac.at/nwnr/math/newsitem/84254) at BOKU University, in Vienne.
 
-4 months
+**June 2025:** I was present at the summer school [Local Limits of Random Graphs](https://fondation-hadamard.fr/fr/evenements/les-ecoles-dete/ecole-d-ete-avec-slmath/) at Institut de Mathématique d’Orsay.
 
-- Implemented novel self-supervised learning framework for low-resource language modeling
+**Mar 2024:** I was present at the conference [Lean for the curious mathematician](https://conferences.cirm-math.fr/2970.html) at CIRM.
 
-- Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
+# Other activities
 
-# Projects
+I am part of the Mathlib [reviewer team](https://leanprover-community.github.io/teams/reviewers.html). I am assessing the mathematical relevance and the quality of the code that contributors wish to add to the library, especially in the probability section.
 
-## **[FlashInfer](https://github.com/)**
-
-Jan 2023 – present
-
-Open-source library for high-performance LLM inference kernels
-
-- Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-- Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-
-## **[NeuralPrune](https://github.com/)**
-
-Jan 2021
-
-Automated neural network pruning toolkit with differentiable masks
-
-- Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-
-- Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-
-# Publications
-
-## **Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models**
-
-July 2023
-
-_John Doe_, Sarah Williams, David Park
-
-[10.1234/neurips.2023.1234](https://doi.org/10.1234/neurips.2023.1234) (NeurIPS 2023)
-
-## **Neural Architecture Search via Differentiable Pruning**
-
-Dec 2022
-
-James Liu, _John Doe_
-
-[10.1234/neurips.2022.5678](https://doi.org/10.1234/neurips.2022.5678) (NeurIPS 2022, Spotlight)
-
-## **Multi-Agent Reinforcement Learning with Emergent Communication**
-
-July 2022
-
-Maria Garcia, _John Doe_, Tom Anderson
-
-[10.1234/icml.2022.9012](https://doi.org/10.1234/icml.2022.9012) (ICML 2022)
-
-## **On-Device Model Compression via Learned Quantization**
-
-May 2021
-
-_John Doe_, Kevin Wu
-
-[10.1234/iclr.2021.3456](https://doi.org/10.1234/iclr.2021.3456) (ICLR 2021, Best Paper Award)
-
-# Selected Honors
-
-- MIT Technology Review 35 Under 35 Innovators (2024)
-
-- Forbes 30 Under 30 in Enterprise Technology (2024)
-
-- ACM Doctoral Dissertation Award Honorable Mention (2023)
-
-- Google PhD Fellowship in Machine Learning (2020 – 2023)
-
-- Fulbright Scholarship for Graduate Studies (2018)
-
-# Skills
-
-**Languages:** Python, C++, CUDA, Rust, Julia
-
-**ML Frameworks:** PyTorch, JAX, TensorFlow, Triton, ONNX
-
-**Infrastructure:** Kubernetes, Ray, distributed training, AWS, GCP
-
-**Research Areas:** Neural architecture search, model compression, efficient inference, multi-agent RL
-
-# Patents
-
-1. Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-
-1. Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-
-1. Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-
-# Invited Talks
-
-1. Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-
-1. Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-
-1. From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)
-
-1. Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)
+**Sept - Dec 2023:** With three fellow students we gave an introductory course to category theory, shaped as a weekly seminar.

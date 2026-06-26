@@ -21,19 +21,19 @@
   colors-headline: rgb(0, 79, 144),
   colors-connections: rgb(0, 79, 144),
   colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-links: rgb(100, 100, 100),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Source Sans 3",
-  typography-font-family-name: "Source Sans 3",
-  typography-font-family-headline: "Source Sans 3",
-  typography-font-family-connections: "Source Sans 3",
-  typography-font-family-section-titles: "Source Sans 3",
+  typography-font-family-body: "Fontin",
+  typography-font-family-name: "Fontin",
+  typography-font-family-headline: "Fontin",
+  typography-font-family-connections: "Fontin",
+  typography-font-family-section-titles: "Fontin",
   typography-font-size-body: 10pt,
-  typography-font-size-name: 30pt,
+  typography-font-size-name: 25pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
   typography-font-size-section-titles: 1.4em,
@@ -41,14 +41,14 @@
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: true,
+  typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
-  typography-bold-section-titles: true,
+  typography-bold-section-titles: false,
   links-underline: false,
   links-show-external-link-icon: false,
-  header-alignment: center,
-  header-photo-width: 3.5cm,
+  header-alignment: left,
+  header-photo-width: 4.15cm,
   header-space-below-name: 0.7cm,
   header-space-below-headline: 0.7cm,
   header-space-below-connections: 0.7cm,
@@ -57,31 +57,31 @@
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
-  section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
+  section-titles-type: "moderncv",
+  section-titles-line-thickness: 0.15cm,
+  section-titles-space-above: 0.55cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.3em,
   sections-space-between-regular-entries: 1.2em,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0.2cm,
-  entries-space-between-columns: 0.1cm,
+  entries-side-space: 0cm,
+  entries-space-between-columns: 0.3cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0cm,
+  entries-summary-space-above: 0.1cm,
   entries-highlights-bullet:  "•" ,
   entries-highlights-nested-bullet:  "•" ,
-  entries-highlights-space-left: 0.15cm,
-  entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
-  entries-highlights-space-between-bullet-and-text: 0.5em,
+  entries-highlights-space-left: 0cm,
+  entries-highlights-space-above: 0.15cm,
+  entries-highlights-space-between-items: 0.1cm,
+  entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
     month: 6,
-    day: 25,
+    day: 26,
   ),
 )
 
@@ -89,65 +89,54 @@
 = Etienne Marion
 
 #connections(
-  [#connection-with-icon("location-dot")[San Francisco, CA]],
-  [#link("mailto:john.doe@email.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[john.doe\@email.com]]],
-  [#link("https://rendercv.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[rendercv.com]]],
-  [#link("https://linkedin.com/in/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[rendercv]]],
-  [#link("https://github.com/rendercv", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[rendercv]]],
+  [#connection-with-icon("location-dot")[Office 725 C1, 45 rue des Saints-Pères, 75006 Paris]],
+  [#link("mailto:etienne.marion@ens-lyon.fr", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[etienne.marion\@ens-lyon.fr]]],
+  [#link("https://etiennec30.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[etiennec30.github.io]]],
 )
 
 
-== Welcome to RenderCV
+== Summary
 
-RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-
-Each section title is arbitrary.
-
-You can choose any of the 9 entry types for each section.
-
-Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], and #link("https://example.com")[link].
+I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean.
 
 == Education
 
 #education-entry(
   [
-    #strong[Princeton University], Computer Science
-
-    - Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment
-
-    - Advisor: Prof. Sanjeev Arora
-
-    - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+    #strong[École Normale Supérieure de Lyon], MS in probability and statistics -- Lyon, France
 
   ],
   [
-    Princeton, NJ
-
-    Sept 2018 – May 2023
+    2023 – 2025
 
   ],
-  degree-column: [
-    #strong[PhD]
+  main-column-second-row: [
   ],
 )
 
 #education-entry(
   [
-    #strong[Boğaziçi University], Computer Engineering
-
-    - GPA: 3.97\/4.00, Valedictorian
-
-    - Fulbright Scholarship recipient for Graduate Studies
+    #strong[École Normale Supérieure de Lyon], BS in mathematics -- Lyon, France
 
   ],
   [
-    Istanbul, Türkiye
-
-    Sept 2014 – June 2018
+    2022 – 2023
 
   ],
-  degree-column: [
-    #strong[BS]
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Lycée Georges Clemenceau], Classe préparatoire in mathematics and physics -- Reims, France
+
+  ],
+  [
+    2020 – 2022
+
+  ],
+  main-column-second-row: [
   ],
 )
 
@@ -155,258 +144,146 @@ Markdown syntax is supported everywhere. This is #strong[bold], #emph[italic], a
 
 #regular-entry(
   [
-    #strong[Nexus AI], Co-Founder & CTO
-
-    - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97\% uptime
-
-    - Raised \$18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-
-    - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-
-    - Developed proprietary inference optimization reducing latency by 73\% compared to baseline
+    #strong[Research intern], MAP5, Université Paris-Cité -- Paris, France
 
   ],
   [
-    San Francisco, CA
+    Feb 2026 – July 2026
 
-    June 2023 – present
-
-    
-
-    3 years 1 month
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Félix Foutel-Rodier: #emph[Impact of demographic fluctuations on structured populations genealogies.]]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[NVIDIA Research], Research Intern
-
-    - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-
-    - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5\% of submissions)
+    #strong[Research intern], University of Vienna -- Vienna, Austria
 
   ],
   [
-    Santa Clara, CA
+    Sept 2025 – Jan 2026
 
-    May 2022 – Aug 2022
-
-    
-
-    4 months
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Emmanuel Schertzer: #emph[Diffusive neutral fractions inside a genetic population.]]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Google DeepMind], Research Intern
-
-    - Developed reinforcement learning algorithms for multi-agent coordination
-
-    - Published research at top-tier venues with significant academic impact
-
-    - ICML 2022 main conference paper, cited 340+ times within two years
-
-    - NeurIPS 2022 workshop paper on emergent communication protocols
-
-    - Invited journal extension in JMLR (2023)
+    #strong[Research intern], École Normale Supérieure de Lyon -- Lyon, France
 
   ],
   [
-    London, UK
+    Mar 2025 – July 2025
 
-    May 2021 – Aug 2021
-
-    
-
-    4 months
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Jean-Christophe Mourrat: #emph[Study of functions learnable by neural networks using mean-fields approximation.]]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Apple ML Research], Research Intern
-
-    - Created on-device neural network compression pipeline deployed across 50M+ devices
-
-    - Filed 2 patents on efficient model quantization techniques for edge inference
+    #strong[Research intern], Institut de recherche mathématique de Rennes -- Rennes, France
 
   ],
   [
-    Cupertino, CA
+    May 2024 – July 2024
 
-    May 2020 – Aug 2020
-
-    
-
-    4 months
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Sébastien Gouëzel: #emph[Formalization of the Ionescu-Tulca theorem and construction of infinite products of porobability measures with Lean.]]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Microsoft Research], Research Intern
-
-    - Implemented novel self-supervised learning framework for low-resource language modeling
-
-    - Research integrated into Azure Cognitive Services, reducing training data requirements by 60\%
+    #strong[Research intern], Laboratoire Jean Kuntzmann -- Grenoble, France
 
   ],
   [
-    Redmond, WA
+    May 2023 – June 2023
 
-    May 2019 – Aug 2019
-
-    
-
-    4 months
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Sana Louhichi: #emph[Tight sequences of random variables: definition, examples and application.]]
 
   ],
 )
 
-== Projects
+== Preprints
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/")[FlashInfer]]
-
-    #summary[Open-source library for high-performance LLM inference kernels]
-
-    - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-
-    - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
+    #strong[Formalization of Brownian motion in Lean]
 
   ],
   [
-    Jan 2023 – present
+    2025+
+
+  ],
+  main-column-second-row: [
+    Rémy Degenne, David Ledvinka, Etienne Marion, Peter Pfaffelhuber
+
+    #link("https://arxiv.org/abs/2511.20118")[arxiv.org\/abs\/2511.20118]
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/")[NeuralPrune]]
-
-    #summary[Automated neural network pruning toolkit with differentiable masks]
-
-    - Reduced model size by 90\% with less than 1\% accuracy degradation on ImageNet
-
-    - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
+    #strong[A Formalization of the Ionescu-Tulcea Theorem in Mathlib]
 
   ],
   [
-    Jan 2021
+    2025+
+
+  ],
+  main-column-second-row: [
+    Etienne Marion
+
+    #link("https://arxiv.org/abs/2506.18616")[arxiv.org\/abs\/2506.18616]
 
   ],
 )
 
-== Publications
+== Talk
 
 #regular-entry(
   [
-    #strong[Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models]
-
-    #emph[John Doe], Sarah Williams, David Park
-
-    #link("https://doi.org/10.1234/neurips.2023.1234")[10.1234\/neurips.2023.1234] (NeurIPS 2023)
+    #strong[A Formalization of the Ionescu-Tulcea Theorem in Mathlib]
 
   ],
   [
-    July 2023
+    Jan 2026
+
+  ],
+  main-column-second-row: [
+    #link("https://leanprover-community.github.io/lt2026/")[Lean Together 2026]
+
+    #link("https://www.youtube.com/watch?v=_TrTKnWU-to")[www.youtube.com\/watch?v=\_TrTKnWU-to]
 
   ],
 )
 
-#regular-entry(
-  [
-    #strong[Neural Architecture Search via Differentiable Pruning]
+== Participation to conferences
 
-    James Liu, #emph[John Doe]
+#strong[Apr 2026:] I was present at the #link("https://arbre3.sciencesconf.org/?lang=en")[3rd annual meeting of the GdR Branchement] in Avignon.
 
-    #link("https://doi.org/10.1234/neurips.2022.5678")[10.1234\/neurips.2022.5678] (NeurIPS 2022, Spotlight)
+#strong[Sept 2025:] I was present at the workshop #link("https://boku.ac.at/nwnr/math/newsitem/84254")[Ancestral lines in population models with interaction] at BOKU University, in Vienne.
 
-  ],
-  [
-    Dec 2022
+#strong[June 2025:] I was present at the summer school #link("https://fondation-hadamard.fr/fr/evenements/les-ecoles-dete/ecole-d-ete-avec-slmath/")[Local Limits of Random Graphs] at Institut de Mathématique d’Orsay.
 
-  ],
-)
+#strong[Mar 2024:] I was present at the conference #link("https://conferences.cirm-math.fr/2970.html")[Lean for the curious mathematician] at CIRM.
 
-#regular-entry(
-  [
-    #strong[Multi-Agent Reinforcement Learning with Emergent Communication]
+== Other activities
 
-    Maria Garcia, #emph[John Doe], Tom Anderson
+I am part of the Mathlib #link("https://leanprover-community.github.io/teams/reviewers.html")[reviewer team]. I am assessing the mathematical relevance and the quality of the code that contributors wish to add to the library, especially in the probability section.
 
-    #link("https://doi.org/10.1234/icml.2022.9012")[10.1234\/icml.2022.9012] (ICML 2022)
-
-  ],
-  [
-    July 2022
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[On-Device Model Compression via Learned Quantization]
-
-    #emph[John Doe], Kevin Wu
-
-    #link("https://doi.org/10.1234/iclr.2021.3456")[10.1234\/iclr.2021.3456] (ICLR 2021, Best Paper Award)
-
-  ],
-  [
-    May 2021
-
-  ],
-)
-
-== Selected Honors
-
-- MIT Technology Review 35 Under 35 Innovators (2024)
-
-- Forbes 30 Under 30 in Enterprise Technology (2024)
-
-- ACM Doctoral Dissertation Award Honorable Mention (2023)
-
-- Google PhD Fellowship in Machine Learning (2020 – 2023)
-
-- Fulbright Scholarship for Graduate Studies (2018)
-
-== Skills
-
-#strong[Languages:] Python, C++, CUDA, Rust, Julia
-
-#strong[ML Frameworks:] PyTorch, JAX, TensorFlow, Triton, ONNX
-
-#strong[Infrastructure:] Kubernetes, Ray, distributed training, AWS, GCP
-
-#strong[Research Areas:] Neural architecture search, model compression, efficient inference, multi-agent RL
-
-== Patents
-
-+ Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-
-+ Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-
-+ Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-
-== Invited Talks
-
-#reversed-numbered-entries(
-  [
-
-+ Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-
-+ Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-
-+ From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)
-
-+ Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)
-  ],
-)
+#strong[Sept - Dec 2023:] With three fellow students we gave an introductory course to category theory, shaped as a weekly seminar.

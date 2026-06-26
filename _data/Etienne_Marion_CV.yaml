@@ -2,187 +2,131 @@
 cv:
   name: Etienne Marion
   headline:
-  location: San Francisco, CA
-  email: john.doe@email.com
+  location: Office 725 C1, 45 rue des Saints-Pères, 75006 Paris
+  email: etienne.marion@ens-lyon.fr
   photo:
   phone:
-  website: https://rendercv.com/
-  social_networks:
-    - network: LinkedIn
-      username: rendercv
-    - network: GitHub
-      username: rendercv
+  website: https://etiennec30.github.io
+  # social_networks:
+  #   - network: LinkedIn
+  #     username: rendercv
+  #   - network: GitHub
+  #     username: rendercv
   custom_connections:
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - Each section title is arbitrary.
-      - You can choose any of the 9 entry types for each section.
-      - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
+    Summary:
+      - "I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean."
+    # Welcome to RenderCV:
+    #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+    #   - Each section title is arbitrary.
+    #   - You can choose any of the 9 entry types for each section.
+    #   - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
     education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
+      - institution: École Normale Supérieure de Lyon
+        area: probability and statistics
+        degree: MS
         date:
-        start_date: 2018-09
-        end_date: 2023-05
-        location: Princeton, NJ
+        start_date: 2023
+        end_date: 2025
+        location: Lyon, France
         summary:
-        highlights:
-          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
-          - "Advisor: Prof. Sanjeev Arora"
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Boğaziçi University
-        area: Computer Engineering
+        # highlights:
+        #   - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+        #   - "Advisor: Prof. Sanjeev Arora"
+        #   - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+      - institution: École Normale Supérieure de Lyon
+        area: mathematics
         degree: BS
         date:
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Istanbul, Türkiye
+        start_date: 2022
+        end_date: 2023
+        location: Lyon, France
         summary:
-        highlights:
-          - "GPA: 3.97/4.00, Valedictorian"
-          - Fulbright Scholarship recipient for Graduate Studies
+        # highlights:
+        #   - "GPA: 3.97/4.00, Valedictorian"
+        #   - Fulbright Scholarship recipient for Graduate Studies
+      - institution: Lycée Georges Clemenceau
+        area: mathematics and physics
+        degree: Classe préparatoire
+        start_date: 2020
+        end_date: 2022
+        location: Reims, France
     experience:
-      - company: Nexus AI
-        position: Co-Founder & CTO
+      - company: MAP5, Université Paris-Cité
+        position: Research intern
         date:
-        start_date: 2023-06
-        end_date: present
-        location: San Francisco, CA
-        summary:
-        highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-      - company: NVIDIA Research
-        position: Research Intern
+        start_date: 2026-02-14
+        end_date: 2026-07-03
+        location: Paris, France
+        summary: "Supervised by Félix Foutel-Rodier: *Impact of demographic fluctuations on structured populations genealogies.*"
+        # highlights:
+        #   - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
+        #   - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
+        #   - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
+        #   - Developed proprietary inference optimization reducing latency by 73% compared to baseline
+      - company: University of Vienna
+        position: Research intern
         date:
-        start_date: 2022-05
-        end_date: 2022-08
-        location: Santa Clara, CA
-        summary:
-        highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
-      - company: Google DeepMind
-        position: Research Intern
+        start_date: 2025-09-15
+        end_date: 2026-01-12
+        location: Vienna, Austria
+        summary: "Supervised by Emmanuel Schertzer: *Diffusive neutral fractions inside a genetic population.*"
+      - company: École Normale Supérieure de Lyon
+        position: Research intern
         date:
-        start_date: 2021-05
-        end_date: 2021-08
-        location: London, UK
-        summary:
-        highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
-      - company: Apple ML Research
-        position: Research Intern
+        start_date: 2025-03-31
+        end_date: 2025-07-25
+        location: Lyon, France
+        summary: "Supervised by Jean-Christophe Mourrat: *Study of functions learnable by neural networks using mean-fields approximation.*"
+      - company: Institut de recherche mathématique de Rennes
+        position: Research intern
         date:
-        start_date: 2020-05
-        end_date: 2020-08
-        location: Cupertino, CA
-        summary:
-        highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
-      - company: Microsoft Research
-        position: Research Intern
+        start_date: 2024-05-13
+        end_date: 2024-07-05
+        location: Rennes, France
+        summary: "Supervised by Sébastien Gouëzel: *Formalization of the Ionescu-Tulca theorem and construction of infinite products of porobability measures with Lean.*"
+      - company: Laboratoire Jean Kuntzmann
+        position: Research intern
         date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
-        highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
-    projects:
-      - name: "[FlashInfer](https://github.com/)"
-        date:
-        start_date: 2023-01
-        end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
-        highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: "[NeuralPrune](https://github.com/)"
-        date: "2021"
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
-        highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-    publications:
-      - title: "Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models"
+        start_date: 2023-05-15
+        end_date: 2023-06-23
+        location: Grenoble, France
+        summary: "Supervised by Sana Louhichi: *Tight sequences of random variables: definition, examples and application.*"
+    preprints:
+      - title: Formalization of Brownian motion in Lean
         authors:
-          - "*John Doe*"
-          - Sarah Williams
-          - David Park
+          - Rémy Degenne
+          - David Ledvinka
+          - Etienne Marion
+          - Peter Pfaffelhuber
         summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: NeurIPS 2023
-        date: 2023-07
-      - title: Neural Architecture Search via Differentiable Pruning
+        url: https://arxiv.org/abs/2511.20118
+        journal:
+        date: 2025+
+      - title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
         authors:
-          - James Liu
-          - "*John Doe*"
+          - Etienne Marion
         summary:
-        doi: 10.1234/neurips.2022.5678
-        url:
-        journal: NeurIPS 2022, Spotlight
-        date: 2022-12
-      - title: Multi-Agent Reinforcement Learning with Emergent Communication
+        url: https://arxiv.org/abs/2506.18616
+        journal:
+        date: 2025+
+    talk:
+      - title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
+        date: 2026-01
         authors:
-          - Maria Garcia
-          - "*John Doe*"
-          - Tom Anderson
-        summary:
-        doi: 10.1234/icml.2022.9012
-        url:
-        journal: ICML 2022
-        date: 2022-07
-      - title: On-Device Model Compression via Learned Quantization
-        authors:
-          - "*John Doe*"
-          - Kevin Wu
-        summary:
-        doi: 10.1234/iclr.2021.3456
-        url:
-        journal: ICLR 2021, Best Paper Award
-        date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
-    skills:
-      - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: "From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)"
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
+          - "[Lean Together 2026](https://leanprover-community.github.io/lt2026/)"
+        url: https://www.youtube.com/watch?v=_TrTKnWU-to
+    Participation to conferences:
+      - "**Apr 2026:** I was present at the [3rd annual meeting of the GdR Branchement](https://arbre3.sciencesconf.org/?lang=en) in Avignon."
+      - "**Sept 2025:** I was present at the workshop [Ancestral lines in population models with interaction](https://boku.ac.at/nwnr/math/newsitem/84254) at BOKU University, in Vienne."
+      - "**June 2025:** I was present at the summer school [Local Limits of Random Graphs](https://fondation-hadamard.fr/fr/evenements/les-ecoles-dete/ecole-d-ete-avec-slmath/) at Institut de Mathématique d’Orsay."
+      - "**Mar 2024:** I was present at the conference [Lean for the curious mathematician](https://conferences.cirm-math.fr/2970.html) at CIRM."
+    Other activities:
+      - I am part of the Mathlib [reviewer team](https://leanprover-community.github.io/teams/reviewers.html). I am assessing the mathematical relevance and the quality of the code that contributors wish to add to the library, especially in the probability section.
+      - "**Sept - Dec 2023:** With three fellow students we gave an introductory course to category theory, shaped as a weekly seminar."
+
 design:
-  theme: classic
+  theme: moderncv
   # page:
   #   size: us-letter
   #   top_margin: 0.7in
@@ -191,13 +135,13 @@ design:
   #   right_margin: 0.7in
   #   show_footer: true
   #   show_top_note: true
-  # colors:
-  #   body: rgb(0, 0, 0)
-  #   name: rgb(0, 79, 144)
-  #   headline: rgb(0, 79, 144)
-  #   connections: rgb(0, 79, 144)
-  #   section_titles: rgb(0, 79, 144)
-  #   links: rgb(0, 79, 144)
+  colors:
+    #   body: rgb(0, 0, 0)
+    #   name: rgb(0, 79, 144)
+    #   headline: rgb(0, 79, 144)
+    #   connections: rgb(0, 79, 144)
+    #   section_titles: rgb(0, 79, 144)
+    links: rgb(100, 100, 100)
   #   footer: rgb(128, 128, 128)
   #   top_note: rgb(128, 128, 128)
   # typography:
@@ -226,8 +170,8 @@ design:
   #     headline: false
   #     connections: false
   #     section_titles: true
-  # links:
-  #   underline: false
+  links:
+    underline: false
   #   show_external_link_icon: false
   # header:
   #   alignment: center
