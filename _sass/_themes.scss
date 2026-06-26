@@ -85,8 +85,8 @@ html[data-theme="dark"] {
   --global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: var(--first-color);
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
+  --global-footer-text-color: #{v.$grey-color-light};
+  --global-footer-link-color: #{v.$white-color};
   --global-distill-app-color: #{v.$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: var(--first-color);
