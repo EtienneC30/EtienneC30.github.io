@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-14'
 papers:
   1-CF808AAAAJ:u-x6o8ySG0sC:
-    citations: 4
+    citations: 5
     title: Formalization of Brownian motion in Lean
     year: '2025'
   1-CF808AAAAJ:u5HHmVD_uO8C:
-    citations: 4
+    citations: 5
     title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
     year: '2025'
