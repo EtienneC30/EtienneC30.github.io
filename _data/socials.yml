@@ -2,7 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
-email: etienne.marion@ens-lyon.fr # your email address
+email: etienne.marion@math.cnrs.fr # your email address
 github_username: EtienneC30
 hal_id: etienne-marion
 orcid_id: 0009-0001-1489-8996
