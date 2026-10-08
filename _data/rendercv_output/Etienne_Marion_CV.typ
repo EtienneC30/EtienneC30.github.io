@@ -6,7 +6,7 @@
   name: "Etienne Marion",
   title: "Etienne Marion - CV",
   footer: context { [#emph[Etienne Marion -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 26,
+    month: 10,
+    day: 8,
   ),
 )
 
@@ -90,16 +90,46 @@
 
 #connections(
   [#connection-with-icon("location-dot")[Office 725 C1, 45 rue des Saints-Pères, 75006 Paris]],
-  [#link("mailto:etienne.marion@ens-lyon.fr", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[etienne.marion\@ens-lyon.fr]]],
+  [#link("mailto:etienne.marion@math.cnrs.fr", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[etienne.marion\@math.cnrs.fr]]],
   [#link("https://etiennec30.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[etiennec30.github.io]]],
 )
 
 
 == Summary
 
-I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean.
+I am a PhD student in Mathematics at MAP5, Université Paris-Cité. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean.
 
 == Education
+
+#education-entry(
+  [
+    #strong[MAP5, Université Paris-Cité], PhD in probability applied to population genetics -- Paris, France
+
+  ],
+  [
+    2026 – present
+
+  ],
+  main-column-second-row: [
+    #summary[Supervised by Félix Foutel-Rodier]
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[University of Vienna & Université Paris-Cité], probability applied to population genetics
+
+  ],
+  [
+    2025 – 2026
+
+  ],
+  main-column-second-row: [
+    #summary[Research internships]
+
+  ],
+)
 
 #education-entry(
   [
@@ -217,6 +247,25 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
   ],
 )
 
+== Publications
+
+#regular-entry(
+  [
+    #strong[A Formalization of the Ionescu-Tulcea Theorem in Mathlib]
+
+  ],
+  [
+    2026
+
+  ],
+  main-column-second-row: [
+    Etienne Marion
+
+    #link("https://link.springer.com/journal/10817")[link.springer.com\/journal\/10817] (Journal of Automated Reasoning)
+
+  ],
+)
+
 == Preprints
 
 #regular-entry(
@@ -236,24 +285,7 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
   ],
 )
 
-#regular-entry(
-  [
-    #strong[A Formalization of the Ionescu-Tulcea Theorem in Mathlib]
-
-  ],
-  [
-    2025+
-
-  ],
-  main-column-second-row: [
-    Etienne Marion
-
-    #link("https://arxiv.org/abs/2506.18616")[arxiv.org\/abs\/2506.18616]
-
-  ],
-)
-
-== Talk
+== Talks
 
 #regular-entry(
   [
@@ -273,6 +305,8 @@ I am studying Mathematics at École Normale Supérieure de Lyon. I completed my 
 )
 
 == Participation to conferences
+
+#strong[Sept 2026:] I was present at the #link("https://indico.math.cnrs.fr/event/16490/overview")[Besançon meeting on Probability, Ecology & Evolution] in Besançon.
 
 #strong[Apr 2026:] I was present at the #link("https://arbre3.sciencesconf.org/?lang=en")[3rd annual meeting of the GdR Branchement] in Avignon.
 

@@ -3,7 +3,7 @@ cv:
   name: Etienne Marion
   headline:
   location: Office 725 C1, 45 rue des Saints-Pères, 75006 Paris
-  email: etienne.marion@ens-lyon.fr
+  email: etienne.marion@math.cnrs.fr
   photo:
   phone:
   website: https://etiennec30.github.io
@@ -15,13 +15,24 @@ cv:
   custom_connections:
   sections:
     Summary:
-      - "I am studying Mathematics at École Normale Supérieure de Lyon. I completed my M.Sc. in probability and statistics and am now doing research internships before starting my PhD next year. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean."
+      - "I am a PhD student in Mathematics at MAP5, Université Paris-Cité. I am mainly interested in probability theory applied to population genetics and formalization of Mathematics using the proof assistant Lean."
     # Welcome to RenderCV:
     #   - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
     #   - Each section title is arbitrary.
     #   - You can choose any of the 9 entry types for each section.
     #   - Markdown syntax is supported everywhere. This is **bold**, *italic*, and [link](https://example.com).
     education:
+      - institution: MAP5, Université Paris-Cité
+        area: probability applied to population genetics
+        degree: PhD
+        location: Paris, France
+        summary: Supervised by Félix Foutel-Rodier
+        start_date: 2026
+      - institution: University of Vienna & Université Paris-Cité
+        area: probability applied to population genetics
+        summary: Research internships
+        start_date: 2025
+        end_date: 2026
       - institution: École Normale Supérieure de Lyon
         area: probability and statistics
         degree: MS
@@ -92,6 +103,14 @@ cv:
         end_date: 2023-06-23
         location: Grenoble, France
         summary: "Supervised by Sana Louhichi: *Tight sequences of random variables: definition, examples and application.*"
+    publications:
+      - title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
+        authors:
+          - Etienne Marion
+        summary:
+        url: https://link.springer.com/journal/10817
+        journal: Journal of Automated Reasoning
+        date: 2026
     preprints:
       - title: Formalization of Brownian motion in Lean
         authors:
@@ -103,20 +122,14 @@ cv:
         url: https://arxiv.org/abs/2511.20118
         journal:
         date: 2025+
-      - title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
-        authors:
-          - Etienne Marion
-        summary:
-        url: https://arxiv.org/abs/2506.18616
-        journal:
-        date: 2025+
-    talk:
+    talks:
       - title: A Formalization of the Ionescu-Tulcea Theorem in Mathlib
         date: 2026-01
         authors:
           - "[Lean Together 2026](https://leanprover-community.github.io/lt2026/)"
         url: https://www.youtube.com/watch?v=_TrTKnWU-to
     Participation to conferences:
+      - "**Sept 2026:** I was present at the [Besançon meeting on Probability, Ecology & Evolution](https://indico.math.cnrs.fr/event/16490/overview) in Besançon."
       - "**Apr 2026:** I was present at the [3rd annual meeting of the GdR Branchement](https://arbre3.sciencesconf.org/?lang=en) in Avignon."
       - "**Sept 2025:** I was present at the workshop [Ancestral lines in population models with interaction](https://boku.ac.at/nwnr/math/newsitem/84254) at BOKU University, in Vienne."
       - "**June 2025:** I was present at the summer school [Local Limits of Random Graphs](https://fondation-hadamard.fr/fr/evenements/les-ecoles-dete/ecole-d-ete-avec-slmath/) at Institut de Mathématique d’Orsay."
